@@ -7,6 +7,7 @@ solution "ABC"
   platforms {"x64"}
   characterset "MBCS"
   targetdir "bin"
+  warnings "off"
 
 project "A"
   kind "ConsoleApp"

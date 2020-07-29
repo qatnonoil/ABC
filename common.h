@@ -5,6 +5,9 @@
 #include <iostream>
 #include <cstdio>
 #include <cstdint>
+#include <algorithm>
+#include <numeric>
+#include <bitset>
 //
 using ll = long long;
 using namespace std;
