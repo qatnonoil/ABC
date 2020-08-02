@@ -8,6 +8,7 @@ solution "ABC"
   characterset "MBCS"
   targetdir "bin"
   warnings "off"
+  cppdialect "C++17"
 
 project "A"
   kind "ConsoleApp"
