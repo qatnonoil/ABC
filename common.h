@@ -10,6 +10,7 @@
 #include <bitset>
 //
 using ll = long long;
+using ld = long double;
 using namespace std;
 #define rep(i,n) for(ll i=0;i<(n);++i)
 inline void yes(bool cond) { cond ? puts("Yes") : puts("No"); }
@@ -17,9 +18,10 @@ template<typename Type> inline void chmin(Type& a, Type b) { if (a > b) a = b; }
 template<typename Type> inline void chmax(Type& a, Type b) { if (a < b) a = b; }
 template<typename Type> inline void sort(Type& arr) { std::sort(arr.begin(), arr.end()); }
 template<typename Type> inline Type nth(vector<Type>& arr, size_t pos) { std::nth_element(arr.begin(), arr.begin() + pos, arr.end()); return arr[pos]; }
-#define BIGP   1000000007
-#define INF_I  std::numeric_limits<ll>::max()
-#define INF_F  std::numeric_limits<float>::infinity()
+constexpr ll BIGP = 1000000007L;
+constexpr ll INF_I = std::numeric_limits<ll>::max();
+constexpr ld INF_F = std::numeric_limits<float>::infinity();
+constexpr ld PI    = 3.14159265358979323846L;
 //
 int main()
 {
