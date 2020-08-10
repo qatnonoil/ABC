@@ -1,6 +1,7 @@
 //
 #include <vector>
 #include <set>
+#include <map>
 #include <array>
 #include <iostream>
 #include <cstdio>
@@ -10,7 +11,6 @@
 #include <bitset>
 //
 using ll = long long;
-using ld = long double;
 using namespace std;
 #define rep(i,n) for(ll i=0;i<(n);++i)
 inline void yes(bool cond) { cond ? puts("Yes") : puts("No"); }
