@@ -15,6 +15,7 @@ using ll = long long;
 using namespace std;
 #define rep(i,n) for(ll i=0;i<(n);++i)
 #define outD(fpv) cout << setprecision(20) << fpv << endl;
+inline void yes(bool cond) { cond ? puts("Yes") : puts("No"); }
 template<typename Type> inline void chmin(Type& a, Type b) { if (a > b) a = b; }
 template<typename Type> inline void chmax(Type& a, Type b) { if (a < b) a = b; }
 template<typename Arr, typename Type> inline void fill(Arr& arr, Type v) { std::fill(arr.begin(), arr.end(), v); }
