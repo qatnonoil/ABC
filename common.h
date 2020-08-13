@@ -21,8 +21,8 @@ template<typename Arr, typename Type> inline void fill(Arr& arr, Type v) { std::
 template<typename Type> inline void sort(Type& arr) { std::sort(arr.begin(), arr.end()); }
 template<typename Type> inline Type nth(vector<Type>& arr, size_t pos) { std::nth_element(arr.begin(), arr.begin() + pos, arr.end()); return arr[pos]; }
 template<typename Type> inline void unique(Type& arr) { sort(arr); arr.erase(unique(arr.begin(), arr.end()), arr.end()); }
-constexpr double BIGP = 1000000007L;
-constexpr double INF_I = std::numeric_limits<ll>::max();
+constexpr ll INF_I = std::numeric_limits<ll>::max();
+constexpr ll BIGP = 1000000007L;
 constexpr double INF_F = std::numeric_limits<float>::infinity();
 constexpr double PI = 3.14159265358979323846L;
 //
