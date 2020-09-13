@@ -9,6 +9,7 @@ solution "ABC"
   targetdir "bin"
   warnings "off"
   cppdialect "C++17"
+  sysincludedirs {"./vendor/ac-library"}
 
 project "A"
   kind "ConsoleApp"
