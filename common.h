@@ -1,16 +1,5 @@
 //
-#include <atcoder/fenwicktree>
-#include <atcoder/segtree>
-#include <atcoder/lazysegtree>
-#include <atcoder/string>
-#include <atcoder/math>
-#include <atcoder/convolution>
-#include <atcoder/modint>
-#include <atcoder/dsu>
-#include <atcoder/maxflow>
-#include <atcoder/mincostflow>
-#include <atcoder/scc>
-#include <atcoder/twosat>
+#include <atcoder/all>
 //
 #include <vector>
 #include <set>
@@ -26,9 +15,10 @@
 //
 using ll = long long;
 using namespace std;
+using namespace atcoder;
 #define rep(i,n) for(ll i=0;i<(n);++i)
 #define outD(fpv) cout << setprecision(20) << fpv << endl;
-inline void yes(bool cond) { cond ? puts("Yes") : puts("No"); }
+inline void Yes(bool cond) { cond ? puts("Yes") : puts("No"); }
 inline void YES(bool cond) { cond ? puts("YES") : puts("NO"); }
 template<typename Type> inline void chmin(Type& a, Type b) { if (a > b) a = b; }
 template<typename Type> inline void chmax(Type& a, Type b) { if (a < b) a = b; }
