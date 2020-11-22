@@ -1,17 +1,6 @@
 //
 #include <atcoder/all>
-//
-#include <vector>
-#include <set>
-#include <map>
-#include <array>
-#include <iostream>
-#include <cstdio>
-#include <cstdint>
-#include <algorithm>
-#include <numeric>
-#include <bitset>
-#include <iomanip>
+#include <bits/stdc++.h>
 //
 using ll = long long;
 using namespace std;
@@ -27,7 +16,7 @@ constexpr ll BIGP = 1000000007L;
 constexpr double INF_F = std::numeric_limits<float>::infinity();
 constexpr double PI = 3.14159265358979323846L;
 using P = pair<ll, ll>;
-struct Init { Init() { cin.tie(0); ios::sync_with_stdio(false); } }_init;
+struct Init { Init() { cin.tie(0); ios::sync_with_stdio(false); } }init_;
 //
 int main()
 {
