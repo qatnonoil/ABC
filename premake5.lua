@@ -10,6 +10,7 @@ solution "ABC"
   warnings "off"
   cppdialect "C++17"
   sysincludedirs {"./vendor/ac-library"}
+  sysincludedirs {"./vendor/"}
 
 project "A"
   kind "ConsoleApp"
