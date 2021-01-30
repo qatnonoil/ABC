@@ -10,7 +10,7 @@ inline void Yes(bool cond) { cond ? puts("Yes") : puts("No"); }
 template<typename Type> inline void chmin(Type& a, Type b) { if (a > b) a = b; }
 template<typename Type> inline void chmax(Type& a, Type b) { if (a < b) a = b; }
 constexpr ll BIGP = 1000000007L;
-using P = tuple<ll, ll>;
+using P = pair<ll, ll>;
 struct Init { Init() { cin.tie(0); ios::sync_with_stdio(false); } }init_;
 //
 ll solve()
