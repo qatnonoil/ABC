@@ -11,33 +11,22 @@ solution "ABC"
   cppdialect "C++17"
   sysincludedirs {"./vendor/ac-library"}
   sysincludedirs {"./vendor/"}
+  kind "ConsoleApp"
 
 project "A"
-  kind "ConsoleApp"
-  files { "./src/a.cpp", "./src/a.txt" }
-  debugargs {"<../src/a.txt"}
+  files { "./src/a.cpp" }
 
 project "B"
-  kind "ConsoleApp"
-  files { "./src/b.cpp", "./src/b.txt" }
-  debugargs {"<../src/b.txt"}
+  files { "./src/b.cpp" }
 
 project "C"
-  kind "ConsoleApp"
-  files { "./src/c.cpp", "./src/c.txt" }
-  debugargs {"<../src/c.txt"}
+  files { "./src/c.cpp" }
 
 project "D"
-  kind "ConsoleApp"
-  files { "./src/d.cpp", "./src/d.txt" }
-  debugargs {"<../src/d.txt"}
+  files { "./src/d.cpp" }
 
 project "E"
-  kind "ConsoleApp"
-  files { "./src/e.cpp", "./src/e.txt" }
-  debugargs {"<../src/e.txt"}
+  files { "./src/e.cpp" }
 
 project "F"
-  kind "ConsoleApp"
-  files { "./src/f.cpp", "./src/f.txt" }
-  debugargs {"<../src/f.txt"}
+  files { "./src/f.cpp" }
